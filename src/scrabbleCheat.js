@@ -29,6 +29,15 @@ var getPossibleWords = function(tree, rack) {
   return answers;
 };
 
-console.log(getPossibleWords(dictionaryTree, 'tiles'));
+var rack = 'lettersinrack';
+var results = getPossibleWords(dictionaryTree, rack);
+console.log('\n'.repeat(5));
+console.log('/'.repeat(15));
+console.log('Found ' + results.length + ' words with rack: ', rack, '.');
+console.log('v'.repeat(15));
+console.log(results);
+console.log('^'.repeat(15));
+console.log('Found ' + results.length + ' words with rack: ', rack, '.');
+console.log('/////////////////////////////');
 
 
