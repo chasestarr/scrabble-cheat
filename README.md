@@ -4,7 +4,7 @@ This app searches through a sorted tree of English words and matches words that 
 
 ##Getting Started
 
-After you clone the repository, install `word-list` buy running
+After you clone the repository, install `word-list` by running
 
     npm install word-list
 
